@@ -1,0 +1,44 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: 'Mona';
+    src: url('./Fonts/MonaSans-Bold.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Liber';
+    src: url('./Fonts/LiberRegular.woff2') format('woff2');
+  }
+  
+
+  
+
+body{
+    background-color: #0E100F;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+
+.page_width{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.rotating_image {
+    /* position: absolute; */
+    height: 100px;
+    width: 100px;
+}
+
